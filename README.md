@@ -5,14 +5,6 @@ Programa en C que:
 - Seguidamente añde un campo con `temperatura` (30.0)  
 - Luego de esto lo guarda en `sensor_updated_encrypted.bin`
   
-## El proyecto se encuentra estructurado de la siguiente manera  
-quiz3/
-├── CMakeLists.txt
-├── README.md
-└── src/
-├── main.c
-├── sensor_encrypted.bin
-└── sensor_updated_encrypted.bin
 
 ## Compilación  
 ### Método 1: CMake   
