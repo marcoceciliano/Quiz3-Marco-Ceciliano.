@@ -1,15 +1,11 @@
 # Quiz 3 - Manejo de Estructuras Encriptadas  
-**Nombre**: Marco Ceciliano  
-**Carné**: B12345  
-**Curso**: IE-0117 Programación Bajo Plataformas Abiertas  
-
 ## Objetivo  
 Programa en C que:  
-- Lee `sensor_encrypted.bin` (estructura `Sensor` encriptada con XOR)  
-- Añade campo `temperatura` (30.0)  
-- Guarda en `sensor_updated_encrypted.bin`
+- En primera instancia lee `sensor_encrypted.bin` (con una estructura de Sensor encriptada con XOR)  
+- Seguidamente añde un campo con `temperatura` (30.0)  
+- Luego de esto lo guarda en `sensor_updated_encrypted.bin`
   
-## Estructura del proyecto  
+## El proyecto se encuentra estructurado de la siguiente manera  
 quiz3/
 ├── CMakeLists.txt
 ├── README.md
@@ -19,7 +15,7 @@ quiz3/
 └── sensor_updated_encrypted.bin
 
 ## Compilación  
-### Método 1: CMake (recomendado)  
+### Método 1: CMake   
 ```bash
 mkdir build && cd build  # Crea y entra a la carpeta de compilación
 cmake ..                 # Genera archivos Makefile usando CMakeLists.txt
@@ -35,3 +31,7 @@ ID: 1 | Valor: 25.50 | Timestamp: 2024-05-20 14:30:00
 
 Datos actualizados:
 ID: 1 | Valor: 25.50 | Timestamp: 2024-05-20 14:30:00 | Temperatura: 30.0
+
+## Captura del funcionamiento del programa target:
+![image](https://github.com/user-attachments/assets/af680f0b-de41-487a-83ec-aa357db4fd8d)
+
