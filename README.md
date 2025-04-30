@@ -6,7 +6,7 @@ Programa en C que:
 - Luego de esto lo guarda en `sensor_updated_encrypted.bin`
   
 
-## Compilación  
+## Para la compilación  
 ### Método 1: CMake   
 ```bash
 mkdir build && cd build  # Crea y entra a la carpeta de compilación
