@@ -32,6 +32,4 @@ ID: 1 | Valor: 25.50 | Timestamp: 2024-05-20 14:30:00
 Datos actualizados:
 ID: 1 | Valor: 25.50 | Timestamp: 2024-05-20 14:30:00 | Temperatura: 30.0
 
-## Captura del funcionamiento del programa target:
-![image](https://github.com/user-attachments/assets/af680f0b-de41-487a-83ec-aa357db4fd8d)
 
